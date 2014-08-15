@@ -1,0 +1,58 @@
+<div class="header">
+ <h4 class="text-muted">Data Loader</h4>
+</div>
+
+
+<div class="page-container">  
+      
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav">
+              <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Config</button></li>
+              <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Users</button></li>
+              <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Bugs</button></li>              
+            </ul>
+        </div>
+  	
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9">
+          <div class="well">
+	<div class="container">
+	<form class="form-horizontal">
+	<fieldset>
+		
+	<!-- Textarea -->
+	<div class="form-group">
+	  <div class="col-md-4">                     
+	    <textarea name="docs" rows="20" cols="100%" ng-model="json"></textarea><br>
+	  </div>
+	</div>
+
+	<!-- Button -->
+	<div class="form-group">
+	  <div class="col-md-4">
+	    <button ng-click="load(json)" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load</button>
+		<button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Config</button>
+	  </div>
+	</div>
+	</fieldset>
+	</form>
+	</div>
+</div>
+
+<div class="row">
+<b>	Total: </b>{{result.length}}
+	<ul ng-repeat="i in result" class="list-unstyled">
+		<li>{{i}}</li>
+	</ul>	
+	</div>
+</div>
+
+          
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
