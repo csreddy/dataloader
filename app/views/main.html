@@ -12,7 +12,7 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
             <ul class="nav">
               <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Config</button></li>
-              <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Users</button></li>
+              <li><button ng-click="loadUsers()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Users</button></li>
               <li><button ng-click="loadConfig()" id="load" name="load" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span> Load Bugs</button></li>              
             </ul>
         </div>
@@ -44,8 +44,9 @@
 </div>
 
 <div class="row">
+{{error}}	
 <b>	Total: </b>{{result.length}}
-	<ul ng-repeat="i in result" class="list-unstyled">
+	<ul ng-repeat="i in result track by $index" class="list-unstyled">
 		<li>{{i}}</li>
 	</ul>	
 	</div>

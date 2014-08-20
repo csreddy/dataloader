@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Fuller Bullock",
+    "email": "fullerbullock@mycompany.com",
+    "username": "castaneda",
+    "password": "admin",
+    "createdAt": "2014-05-26T17:29:56:18Z",
+    "modifiedAt": "2014-05-16T03:54:37:15Z"
+  },
+  {
+    "name": "Dana Gordon",
+    "email": "danagordon@mycompany.com",
+    "username": "donaldson",
+    "password": "admin",
+    "createdAt": "2014-03-21T15:04:02:888Z",
+    "modifiedAt": "2014-04-14T19:40:27:519Z"
+  },
+  {
+    "name": "Guzman Wagner",
+    "email": "guzmanwagner@mycompany.com",
+    "username": "small",
+    "password": "admin",
+    "createdAt": "2014-01-19T16:59:06:630Z",
+    "modifiedAt": "2014-04-29T15:05:05:162Z"
+  },
+  {
+    "name": "Acevedo Key",
+    "email": "acevedokey@mycompany.com",
+    "username": "bolton",
+    "password": "admin",
+    "createdAt": "2014-02-28T02:22:55:677Z",
+    "modifiedAt": "2014-08-18T11:59:55:717Z"
+  },
+  {
+    "name": "Marcia Compton",
+    "email": "marciacompton@mycompany.com",
+    "username": "rosales",
+    "password": "admin",
+    "createdAt": "2014-02-14T13:44:03:388Z",
+    "modifiedAt": "2014-04-05T12:57:25:739Z"
+  },
+  {
+    "name": "Lessie Perry",
+    "email": "lessieperry@mycompany.com",
+    "username": "cummings",
+    "password": "admin",
+    "createdAt": "2014-06-20T15:08:03:991Z",
+    "modifiedAt": "2014-02-16T13:00:37:198Z"
+  },
+  {
+    "name": "Shawna Combs",
+    "email": "shawnacombs@mycompany.com",
+    "username": "sheppard",
+    "password": "admin",
+    "createdAt": "2014-06-02T05:17:15:351Z",
+    "modifiedAt": "2014-03-27T08:20:06:979Z"
+  },
+  {
+    "name": "Rachael Lowe",
+    "email": "rachaellowe@mycompany.com",
+    "username": "goff",
+    "password": "admin",
+    "createdAt": "2014-02-13T09:37:01:533Z",
+    "modifiedAt": "2014-05-12T20:30:08:63Z"
+  },
+  {
+    "name": "Saundra Harmon",
+    "email": "saundraharmon@mycompany.com",
+    "username": "mercer",
+    "password": "admin",
+    "createdAt": "2014-07-15T19:28:23:18Z",
+    "modifiedAt": "2014-08-11T02:44:27:588Z"
+  },
+  {
+    "name": "Ward Huffman",
+    "email": "wardhuffman@mycompany.com",
+    "username": "lester",
+    "password": "admin",
+    "createdAt": "2014-04-08T13:38:45:775Z",
+    "modifiedAt": "2014-03-20T20:17:05:381Z"
+  }
+]
