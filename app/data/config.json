@@ -1,58 +1,7 @@
 {
-    "users": [
-  {
-    "name": "Fuller Bullock",
-    "email": "fullerbullock@mycompany.com",
-    "username": "castaneda"
-  },
-  {
-    "name": "Dana Gordon",
-    "email": "danagordon@mycompany.com",
-    "username": "donaldson"
-  },
-  {
-    "name": "Guzman Wagner",
-    "email": "guzmanwagner@mycompany.com",
-    "username": "small"
-  },
-  {
-    "name": "Acevedo Key",
-    "email": "acevedokey@mycompany.com",
-    "username": "bolton"
-  },
-  {
-    "name": "Marcia Compton",
-    "email": "marciacompton@mycompany.com",
-    "username": "rosales"
-  },
-  {
-    "name": "Lessie Perry",
-    "email": "lessieperry@mycompany.com",
-    "username": "cummings"
-  },
-  {
-    "name": "Shawna Combs",
-    "email": "shawnacombs@mycompany.com",
-    "username": "sheppard"
-  },
-  {
-    "name": "Rachael Lowe",
-    "email": "rachaellowe@mycompany.com",
-    "username": "goff"
-  },
-  {
-    "name": "Saundra Harmon",
-    "email": "saundraharmon@mycompany.com",
-    "username": "mercer"
-  },
-  {
-    "name": "Ward Huffman",
-    "email": "wardhuffman@mycompany.com",
-    "username": "lester"
-  }
-],
+    "users": [],
     "severity": ["P1 - Catastrophic", "P2 - Critcial", "P3 - Major", "P4 - Minor", "P5 -  Aesthetic", "Performance"],
-    "status": ["New", "Verify", "Fix", "Test", "Ship", "Closed", "Will not fix", "External"],
+    "status": ["New", "Verify", "Fix", "Test", "Ship", "Closed", "Will not fix", "External", "n/v/f/e"],
     "version": [
         "n/a",
         "TKW-2.0-1",

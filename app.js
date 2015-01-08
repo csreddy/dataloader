@@ -48,7 +48,7 @@ app.use('/v1/', function(req, res, next) {
             }
         })).pipe(res);
     } else if (req.method === 'PUT') {
-        console.log('body:', req.body);
+      //  console.log('body:', req.body);
 
         var options = {
             method: 'PUT',
